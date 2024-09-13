@@ -28,7 +28,7 @@ func Walker(pathmap map[string]string) filepath.WalkFunc {
 		cookcli.Stdout = &stdout
 		cookcli.Stderr = &stderr
 		if err := cookcli.Run(); err != nil {
-			return fmt.Errorf("failed to create markdown using cookcli: %w", err)
+			return fmt.Errorf("failed to create markdown using cookcli for file %s: %w: %s", cookfilename, err, stderr.String())
 		}
 		outbytes, err := io.ReadAll(strings.NewReader(stdout.String()))
 		if err != nil {
