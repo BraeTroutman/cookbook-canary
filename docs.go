@@ -11,20 +11,21 @@ import (
 	"strings"
 )
 
+const outputpath = "docs/_recipes"
+
 func Walker(pathmap map[string]string) filepath.WalkFunc {
 	return func(pathstr string, info fs.FileInfo, err error) error {
 		if info.IsDir() || filepath.Ext(pathstr) != ".cook" {
 			return nil
 		}
-		dir, cookfilename := filepath.Split(strings.Replace(pathstr, "recipes", "docs", 1))
+		dir, cookfilename := filepath.Split(strings.Replace(pathstr, "recipes", outputpath, 1))
 		if dir != "" {
 			if err := os.MkdirAll(dir, fs.ModePerm); err != nil {
 				return fmt.Errorf("failed to create dir %s: %w", dir, err)
 			}
 		}
 		cookcli := exec.Command("cook", "recipe", "-f", "markdown", pathstr)
-		var stdout strings.Builder
-		var stderr strings.Builder
+		var stdout, stderr strings.Builder
 		cookcli.Stdout = &stdout
 		cookcli.Stderr = &stderr
 		if err := cookcli.Run(); err != nil {
