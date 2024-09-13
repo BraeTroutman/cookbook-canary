@@ -1,3 +1,9 @@
+---
+servings:
+- 8
+title: Strawberry Shortcake Cheesecake
+---
+
 # 
 
 ## Ingredients

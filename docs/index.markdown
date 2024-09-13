@@ -6,6 +6,6 @@ layout: home
 ---
 
 {% for recipe in site.recipes %}
-[some recipe]({{ recipe.url }})
+[{{ recipe.title }}]({{ recipe.url | prepend: site.baseurl }})
 {% endfor %}
 

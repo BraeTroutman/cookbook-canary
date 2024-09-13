@@ -1,6 +1,7 @@
 ---
 servings:
 - 4
+title: Spring Bowls
 ---
 
 # 

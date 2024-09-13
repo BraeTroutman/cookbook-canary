@@ -1,6 +1,7 @@
 ---
 servings:
 - 6
+title: Sushi Bake
 ---
 
 # 
