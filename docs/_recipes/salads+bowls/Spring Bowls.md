@@ -5,7 +5,6 @@ title: Spring Bowls
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *3 tablespoons* olive oil

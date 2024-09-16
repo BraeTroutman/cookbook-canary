@@ -5,7 +5,6 @@ title: Baked Ziti (with sausage)
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *1 box* mushrooms

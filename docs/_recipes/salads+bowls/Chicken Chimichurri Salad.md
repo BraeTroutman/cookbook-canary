@@ -5,7 +5,6 @@ title: Chicken Chimichurri Salad
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *3* large chicken breasts

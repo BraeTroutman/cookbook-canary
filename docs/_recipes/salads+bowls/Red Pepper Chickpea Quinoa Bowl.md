@@ -5,7 +5,6 @@ title: Red Pepper Chickpea Quinoa Bowls
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *1 can* chickpeas

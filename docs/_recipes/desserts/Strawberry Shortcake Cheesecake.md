@@ -5,7 +5,6 @@ title: Strawberry Shortcake Cheesecake
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *1 box* strawberry cake mix

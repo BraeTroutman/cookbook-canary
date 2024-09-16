@@ -5,7 +5,6 @@ title: Sushi Bake
 layout: page
 ---
 
-# 
 
 ## Ingredients
 - *2 cups* rice (preferably sushi)
@@ -37,8 +36,8 @@ layout: page
 3. while the rice is cooking, season salmon fillets with olive oil, curry
 powder, garlic powder, and salt
 
-4. bake the salmon in the oven for (salmon)15 minutes. Remove from oven and
-reduce oven temp to 350
+4. bake the salmon in the oven for 15 minutes. Remove from oven and reduce oven
+temp to 350
 
 5. add salmon, shredded imitation crab, cream cheese (softened), mayo, garlic
 powder, salt, and pepper
@@ -49,8 +48,7 @@ thoroughly.
 7. When the rice is done, put it into a casserole dish and shake rice vinegar
 over it. mix and spread to fill the bottom of the dish
 
-8. top the rice with the salmon + crab mixture, and bake for (casserole)25
-minutes
+8. top the rice with the salmon + crab mixture, and bake for 25 minutes
 
 9. cut the casserole into slices and serve topped with green onion, sliced
 cucumber, sriricha, and furikake

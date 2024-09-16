@@ -35,7 +35,13 @@ func Walker(pathmap map[string]string) filepath.WalkFunc {
 		if err != nil {
 			return fmt.Errorf("failed to read stdout of cookcli process for file %s: %w", cookfilename, err)
 		}
-		if err := os.WriteFile(strings.Replace(dir+cookfilename, ".cook", ".md", 1), outbytes, fs.ModePerm); err != nil {
+		lines := make([]string, 0)
+		for _, line := range strings.Split(string(outbytes), "\n") {
+			if line != "# " {
+				lines = append(lines, line)
+			}
+		}
+		if err := os.WriteFile(strings.Replace(dir+cookfilename, ".cook", ".md", 1), []byte(strings.Join(lines, "\n")), fs.ModePerm); err != nil {
 			return fmt.Errorf("failed to write stdout of cookcli process for file %s: %w", cookfilename, err)
 		}
 		return nil
