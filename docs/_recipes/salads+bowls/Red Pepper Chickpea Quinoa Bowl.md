@@ -2,6 +2,7 @@
 servings:
 - 4
 title: Red Pepper Chickpea Quinoa Bowls
+layout: page
 ---
 
 # 

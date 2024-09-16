@@ -2,6 +2,7 @@
 servings:
 - 8
 title: Chicken Chimichurri Salad
+layout: page
 ---
 
 # 

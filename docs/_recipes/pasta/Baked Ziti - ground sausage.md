@@ -2,6 +2,7 @@
 servings:
 - 8
 title: Baked Ziti (with sausage)
+layout: page
 ---
 
 # 
