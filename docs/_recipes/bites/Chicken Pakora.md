@@ -3,6 +3,7 @@ servings:
 - 4
 categories: indian
 title: Chicken Pakora
+layout: page
 ---
 
 
